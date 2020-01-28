@@ -2,7 +2,7 @@
     list-style:none;
     text-align: center;
     color: lightslategrey;
-    font-size: 12px;
+    font-size: 14px;
     
 
     
@@ -15,6 +15,7 @@ color: black;
 text-decoration: none;
 display: inline;
 padding-left: 15px;
+padding-top: 20px;
 
 } 
 .topbar a:hover {
@@ -28,23 +29,32 @@ padding-left: 15px;
 #topr {
     float: right;
 }
+.pimg {
+    height: 50px;
+    width: 120px;
+    top: 500%;
+}
+.center-image {
+    text-align: center;
+}
 #google {
     padding-top: 200px;
-    padding-left: 300px;
+    padding-left: 100px;
     height: 92px;
     width: 275px;
     
 }
+
 .search-bar {
+    
     border-style:solid;
     border-width: 1px;
     border-radius: 24px;
     border-color: lightgrey;
+  
+    width: 550px;
+    height: 40px;
     margin: 0 auto;
-     padding-left: 200px;
-     padding-top: 2px;
-    width: 240px;
-    height: 29px;
    
     
 }
@@ -52,25 +62,24 @@ padding-left: 15px;
    left: 34.5%;
     position:absolute;
     width: 350px;
-    height: 24px;
+    height: 30px;
     border: none;
     outline: none;
    
    
 }
 #simg {
-    left: 32.5%;
-    top: 47.3%;
-    position:absolute;
-    
+    float: left;
+    padding-left: 6px;
+    padding-top: 6px;
 }
 #mimg {
-    right: 32%;
-    top: 47.3%;
-    position:absolute;
+    float: right;
+    padding-top: 5px;
+    padding-right: 6px;
 }
 .button {
-    display: flex;
+display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -82,9 +91,9 @@ padding-left: 15px;
     color: #5F6368;
     font-size: 14px;
     margin: 10px 4px;
-    line-height: 27px;
+    
     height: 36px;
-    min-width: 54px;
+    
     text-align: center;
     cursor: pointer;
     
@@ -107,15 +116,15 @@ padding-left: 15px;
 .bottombar {
      background-color: rgb(226, 225, 225);
     line-height: 10px;
-    font-size: 12px;
+    font-size: 14px;
     width: 100%;
     position: fixed;
-  bottom: 0;
+     bottom: 0;
 }
 .bottombar a{
     text-decoration: none;
     color: rgb(53, 53, 53);
-    padding: 10px;
+    padding-right: 10px;
 }
 .bottombar a:hover {
     text-decoration: underline;
